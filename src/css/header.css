@@ -1,0 +1,45 @@
+:root {
+  font-size: 62.5%;
+  --gradientBlackBg: radial-gradient(
+    circle at 10% 20%,
+    rgb(0, 0, 0) 0%,
+    rgb(64, 64, 64) 90.2%
+  );
+  --whiteFont: rgb(255, 255, 255);
+  --borderWhite: rgb(255, 255, 255);
+  --whiteBg: rgb(255, 255, 255);
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  background: var(--gradientBlackBg);
+  height: 100vh;
+  color: var(--whiteFont);
+}
+
+.wrapper {
+  margin: auto;
+}
+
+#header {
+  padding: 1.2em 0.8em;
+  border-bottom: 1px solid var(--borderWhite);
+}

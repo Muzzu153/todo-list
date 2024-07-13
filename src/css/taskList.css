@@ -1,0 +1,63 @@
+main {
+  margin: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.taskDiv {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: 1px solid white;
+
+  button {
+    color: var(--whiteFont);
+    appearance: none;
+    border: none;
+    padding: 0.5rem;
+    margin: 0 0.2rem;
+    background: #2196f3;
+    border-radius: 2px;
+  }
+
+  button:hover, button:focus{
+    background: #1c87df;
+  }
+
+  .remove-button{
+    background: #e20505;
+  }
+
+  .remove-button:hover, .remove-button:focus{
+    background: #cc0a0a;
+  }
+
+  button:active{
+    transform: scale(0.9);
+    transition: 0.2s;
+  }
+
+}
+
+.modal {
+  padding: 2rem;
+  border-radius: 5px;
+  background: rgba(238, 231, 231);
+  margin: 25rem auto;
+  border: none;
+  transform: scale(1);
+  transition: 2s;
+  color: var(--whiteFont);
+  .task-details {
+    padding: 1rem;
+    border-radius: 5px;
+    background: var(--gradientBlackBg);
+    margin-top: 1rem;
+  }
+
+  #task-description {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,2 @@
+(()=>{"use strict";const t=()=>{const t=[];return{getProjectList:()=>t,createSingleProject:()=>{const t=(()=>{const t=[];return{getTasks:()=>t,createTask:()=>({title:prompt("title?"),description:prompt("description?"),dueDate:prompt("due-date?"),priority:prompt("priority?")}),addTask:e=>{t.push(e)}}})(),e=prompt("project name?"),r=Object.assign({});return r[e]=t.createTask(),t.addTask(r[e]),console.log(r),r},addSingleProjectToList:e=>{t.push(e)}}};console.log(t()),t()})();
+//# sourceMappingURL=main.bundle.js.map
