@@ -1,5 +1,5 @@
 import loadHeader from '../DOM/header';
-import loadAllTasksLists from '../DOM/allTasks';
+import loadAllTasksLists from '../DOM/displayAllTasks';
 // import loadHome from "../DOM/home";
 
 const firstLoad = () => {
